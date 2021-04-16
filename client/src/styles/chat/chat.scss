@@ -1,0 +1,121 @@
+
+.chat-container {
+    position: fixed;
+    width: 247px;
+    font-size: 12px;
+    background: rgba(255, 251, 251, 1);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    left: 5px;
+    z-index: 5;
+    top: 70vh;
+    box-shadow: 1px 1px 4px white;
+
+    strong{
+        text-transform: capitalize;
+    }
+
+    .chat-row-1{
+        position: relative;
+        height: 141px;
+        overflow: auto;
+
+        .chat-col{
+            position: relative;
+        }
+    }
+    .chat-row2{
+        position: relative;
+
+        .chat-col{
+            position: relative;
+
+            .chat-user{
+                position: relative;
+            }
+        }
+    }
+
+    
+    .md-form .prefix{
+        font-size: 15px;
+    }
+    .chat-container .md-form input[type="text"]:not(.browser-default) {
+        font-size: 15px;
+    }
+    .md-form.md-outline {
+        position: relative;
+        margin-top: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .md-form.md-outline label.active {
+        transform: translateY(-13px) scale(0.8);
+        background: #000;
+        font-weight: 500;
+        padding-right: 5px;
+        padding-left: 5px;
+        left: 8px;
+        color: white;
+        border-radius: 5px;
+    }
+    
+
+    .md-form .prefix.active {
+        color : rgb(255, 255, 255);
+    }
+    .md-form input[type="text"]:not(.browser-default):focus:not([readonly]) + label, .md-form input[type="password"]:not(.browser-default):focus:not([readonly]) + label{
+        color:  rgb(255, 255, 255);
+    }
+    .md-form input[type="text"]:not(.browser-default):focus:not([readonly]), .md-form input[type="password"]:not(.browser-default):focus:not([readonly]){
+        border: none;
+        border-top: 1px solid  rgb(255, 0, 140);
+        border-bottom: 1px solid  rgb(255, 0, 140);
+        font-size: 12px;
+        padding: 0px 12px;
+    }
+    .md-form input[type="text"]:not(.browser-default){
+        border: 1px solid #b3b3b3;
+        font-size: 12px;
+        padding: 0px 12px;
+    }
+    .card-title {
+
+        margin-bottom: .75rem;
+        text-align: center;
+
+    }
+    .md-form.md-outline input[type="text"]{
+        border-radius: 2px;
+    }
+
+    .md-form.md-outline input[type="text"]:focus:not([readonly]){
+        box-shadow: none;
+    }
+    .md-form .form-control {
+        margin: 0 0 0.5rem 0;
+        border-radius: 0;
+        padding: 0.6rem 0 0.4rem 0;
+        background-color: transparent;
+        height: 24px;
+    }
+    .md-form.md-outline label {
+        font-size: 14px;
+        transform: translateY(1px);
+    }
+    .chat-container .md-form input[type="text"]:not(.browser-default) {
+        border-top: 1px solid rgb(255, 0, 140);
+        border-bottom: 1px solid rgb(255, 0, 140);
+    }
+}
+
+.chat-container .md-form input[type="text"]:not(.browser-default) {
+    border: none;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: medium;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: medium;
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+}

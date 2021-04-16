@@ -1,0 +1,134 @@
+
+.row2{
+    position: relative;
+    margin-top: 17px;
+    padding: 0px 7%;
+
+    
+    .bg{
+
+        position: absolute;
+        width: 91%;
+        height: 100%;
+        background: rgba(0,0,0,0.8);
+        z-index: 2;
+        text-align: center;
+
+        h4{
+            color : white;
+            padding-top: 55px;
+        }
+    
+    }
+    
+    .bgx{
+
+        position: absolute;
+        width: 94%;
+        height: 100%;
+        background: rgba(0,0,0,0.8);
+        z-index: 2;
+    
+    }
+    
+    .bgzx{
+
+        position: absolute;
+        width: 97%;
+        height: 100%;
+        background: rgba(0,0,0,0.8);
+        z-index: 2;
+    
+    }
+    
+
+
+    .col-x{
+        position: relative;
+        margin: 13px 0;
+        cursor: pointer;
+        transition: all .5s ease-in-out;
+    }
+
+    .card-builder, .c1, .c2, .c3, .c4, .c5, .c6 {
+        position: relative;
+        text-align: center;
+        box-shadow: 0px 0px 13px #e6e5e5;
+        transition: all 1s ease-in-out;
+
+        .forum-col{
+            .img  {
+                position: relative;
+                width: 35px;
+                margin-right: 10px;
+            }
+        }
+        .card-text {
+            font-size: 0.9rem;
+            font-weight: 400;
+            color: #747373;
+            font-size: 11px;
+            margin-top: 27px;
+        }
+        
+        .card-title {
+            margin-bottom: .75rem;
+            font-size: 15px;
+        }
+    }
+
+
+    .c3:hover{
+        background: url('https://www.nautiljon.com/images/actualite/00/39/animes_de_l_ete_2019_faites_votre_choix_11393.jpg?1564128024') no-repeat;
+        background-size: 100% 100%;
+        
+        .card-title {
+            font-size: 27px;
+            color: red;
+        }
+        .card-text {
+            opacity: 0;
+        }
+    }
+    
+    .c1:hover{
+        background-size: 100% 100%;
+        
+        .card-title {
+            font-size: 15px;
+            color: red;
+        }
+        .card-text {
+            opacity: 0;
+        }
+        
+    }
+    .c4:hover{
+        background: url('https://static.zerochan.net/Monkey.D..Luffy.full.373001.jpg') no-repeat;
+        background-size: 100% 100%;
+        
+        .card-title {
+            font-size: 20px;
+            color: red;
+        }
+        .card-text {
+            opacity: 0;
+        }
+        
+    }
+}
+
+.container-modla{
+    text-align: center;
+
+    em{
+        color : red;
+        font-size: 18px;
+    }
+    .mg-alerte{
+        position: relative;
+        width: 43px;
+        margin-bottom: 5px;
+    }
+
+}

@@ -1,0 +1,120 @@
+
+
+
+.container-pres{
+    position: relative;
+    background : white;
+
+    a{
+        color : #933636;
+
+        &:hover{
+            color: rgb(0, 217, 255);
+        }
+    }
+
+    .row-pres{
+        position: relative;
+
+        .col-pres-1{
+            position: relative;
+            text-align: center;
+
+
+            .welcome-gg-hh{
+                position: relative;
+                width: 38%;
+            }
+        }
+    }
+
+    .row-pres-2{
+        position: relative;
+        margin-top: 37px;
+
+        .clp{
+            position: relative;
+            text-align: center;
+            cursor: pointer;
+            transition: all .2s ease-in-out;
+            color: #933636;
+
+            &:hover{
+                color: rgb(0, 217, 255);
+                transform: scale(1.2);
+                font-weight: 500;
+            }
+        }
+    }
+
+    .row-pres-3{
+        position: relative;
+        margin: 20px 30px;
+        margin-top: 40px;
+        margin-bottom: 0;
+
+        .NewT{
+            position: relative;margin-bottom: 5px;
+
+            em{
+                position: relative;
+                background: black;
+                border-radius: 4px;
+                padding: 5px 12px;
+                border: 2px groove #000;
+                color: white;
+                cursor: pointer;
+                transition: all .2s ease-in-out;
+            }
+        }
+    
+        .col-3 {
+            position: relative;
+            text-align: center;
+            border: 4px groove #f4f4f4;
+        }
+    }
+    .row-pres-4{
+        position: relative;
+        margin: 0px 30px;
+        padding-bottom: 212px;
+
+        .NewT{
+            position: relative;margin-bottom: 5px;
+
+            em{
+                position: relative;
+                background: black;
+                border-radius: 4px;
+                padding: 5px 12px;
+                border: 2px groove #000;
+                color: white;
+                cursor: pointer;
+                transition: all .2s ease-in-out;
+            }
+        }
+    
+        .col-4 {
+            position: relative;
+            text-align: center;
+            border: 1px groove #f9cda7;padding: 7px 0px; 
+              
+        }
+        .csx{
+            cursor: pointer;
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+        .cdc{
+            text-align: left;
+            padding-left: 10px;
+            cursor: pointer;
+            
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}

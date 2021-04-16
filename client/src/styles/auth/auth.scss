@@ -1,0 +1,47 @@
+
+.auth-container{
+    position: relative;
+    
+
+    .auth-row{
+        position: relative;
+
+        .auth-col{
+            position: relative;
+            margin-top: 200px;
+        }
+
+        .create-ac{
+            position: relative;
+            cursor: pointer;
+            float: right;
+            margin-top: 17px;   
+        
+            transition: all .3s ease-in-out;
+
+            &:hover{
+                color: red;
+            }
+        }
+    }
+    
+.md-form .prefix.active {
+    color : rgb(255, 0, 64);
+}
+.md-form input[type="text"]:not(.browser-default):focus:not([readonly]) + label, .md-form input[type="password"]:not(.browser-default):focus:not([readonly]) + label{
+    color: red;
+}
+.md-form input[type="text"]:not(.browser-default):focus:not([readonly]), .md-form input[type="password"]:not(.browser-default):focus:not([readonly]){
+    border-bottom: 1px solid red;
+}
+.md-form input[type="text"]:not(.browser-default){
+    border-bottom: 1px solid #b3b3b3;
+}
+.card-title {
+
+    margin-bottom: .75rem;
+    text-align: center;
+
+}
+
+}
